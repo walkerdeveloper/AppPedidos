@@ -1,0 +1,4 @@
+#Sat May 11 19:40:26 GFT 2019
+base.0=C\:\\Users\\Gabriel\\Documents\\AppPedidos\\AppPedidos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
