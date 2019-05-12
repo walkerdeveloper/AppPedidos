@@ -36,6 +36,7 @@ public class AlterarPedidoActivity extends AppCompatActivity {
         btnPedido.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //To do
                alterarPedido();
             }
         });
