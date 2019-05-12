@@ -1,13 +1,25 @@
 package br.com.unibratec.apppedidos;
 
-public class Pedido {
+import java.io.Serializable;
 
+public class Pedido implements Serializable {
+
+    private int id;
     private String titulo;
     private String descricao;
 
-    public Pedido(String titulo, String descricao){
+    public Pedido(int id, String titulo, String descricao){
+        this.setId(id);
         this.titulo = titulo;
         this.descricao = descricao;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTitulo() {

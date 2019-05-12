@@ -26,7 +26,7 @@
         android:hint="Descricao"/>
 
     <Button
-        android:id="@+id/btnCadastrar"
+        android:id="@+id/btnAlterar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="Cadastrar Pedido"

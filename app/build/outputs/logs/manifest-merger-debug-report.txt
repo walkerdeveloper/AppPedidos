@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a1267b373fb2daf516b247561b23e64b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\56c69597a50ead79266bf52212e45e7a\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\46439b3da532d1fa42c8465b650c4e11\AndroidManifest.xml:17:1-22:12
@@ -31,25 +31,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Gabriel\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\cc48c57522b321f81ba1b924c7b73eef\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\fd1108ba0b12e29472f4ef92516195f3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\81af285df9edd9b802b398a5d471a016\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\56c69597a50ead79266bf52212e45e7a\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\56c69597a50ead79266bf52212e45e7a\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\17f13a22868a96409a07c60a426c606a\AndroidManifest.xml:22:5-94
@@ -59,39 +59,43 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Gabriel\.g
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\17f13a22868a96409a07c60a426c606a\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:11:9-40
 activity#br.com.unibratec.apppedidos.MainActivity
-ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:16:27-74
 activity#br.com.unibratec.apppedidos.CadastrarActivity
-ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:19:9-55
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:19:9-55
 	android:name
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml:19:19-52
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:19:19-52
+activity#br.com.unibratec.apppedidos.AlterarPedidoActivity
+ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:20:9-59
+	android:name
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml:20:19-56
 uses-sdk
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a1267b373fb2daf516b247561b23e64b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a1267b373fb2daf516b247561b23e64b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\56c69597a50ead79266bf52212e45e7a\AndroidManifest.xml:5:5-7:41
@@ -146,13 +150,13 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Gabriel\.gradle\caches\tr
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\fd1108ba0b12e29472f4ef92516195f3\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\81af285df9edd9b802b398a5d471a016\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\81af285df9edd9b802b398a5d471a016\AndroidManifest.xml:20:5-44
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-		ADDED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\AppPedidos\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\AppPedidos\app\src\main\AndroidManifest.xml

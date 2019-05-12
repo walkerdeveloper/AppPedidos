@@ -26,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name="br.com.unibratec.apppedidos.CadastrarActivity" />
+        <activity android:name="br.com.unibratec.apppedidos.AlterarPedidoActivity" />
     </application>
 
 </manifest>

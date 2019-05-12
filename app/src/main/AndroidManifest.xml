@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CadastrarActivity" />
+        <activity android:name=".AlterarPedidoActivity" />
     </application>
 
 </manifest>

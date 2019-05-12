@@ -1,7 +1,7 @@
-#Sat May 11 21:37:24 GFT 2019
-base.0=C\:\\Development\\AppPedidos\\AppPedidos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+#Sun May 12 01:04:15 GFT 2019
+base.0=C\:\\Development\\AppPedidos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Development\\AppPedidos\\AppPedidos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.1=C\:\\Development\\AppPedidos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out

@@ -5,15 +5,18 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         db = openOrCreateDatabase("database", SQLiteDatabase.CREATE_IF_NECESSARY, null);
         String pedidos = "CREATE TABLE IF NOT EXISTS pedidos " +
-                        "(_id INTEGER PRIMARY KEY autoincrement," +
+                        "(id INTEGER PRIMARY KEY autoincrement," +
                         "titulo VARCHAR (50)," +
                         " descricao VARCHAR(50))";
 
@@ -46,10 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getBaseContext(), CadastrarActivity.class));
             }
         });
-
-        //ListView lista = (ListView) findViewById(R.id.lvpedido);
-        //ArrayAdapter<Pedido> adapter = new PedidoAdapter(this, adicionarPedido());
-        // lista.setAdapter(adapter);
     }
 
     @Override
@@ -60,6 +59,17 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<Pedido> adapter = new PedidoAdapter(this,  recuperarPedidos());
         lista.setAdapter(adapter);
 
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Pedido pedido;
+                pedido = (Pedido) parent.getItemAtPosition(position);
+                Intent intent = new Intent(MainActivity.this, AlterarPedidoActivity.class);
+                intent.putExtra("pedidoSelecionado", pedido);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private ArrayList<Pedido> recuperarPedidos(){
@@ -69,14 +79,14 @@ public class MainActivity extends AppCompatActivity {
         int indiceId = cursor.getColumnIndex("_id");
         int indiceTitulo = cursor.getColumnIndex("titulo");
         int indiceDescricao = cursor.getColumnIndex("descricao");
-        //cursor.moveToFirst();
-        while ( cursor.moveToNext() ){
-            Pedido p = new Pedido(cursor.getString(indiceTitulo), cursor.getString(indiceDescricao));
+
+        cursor.moveToFirst();
+        do {
+            Pedido p = new Pedido(cursor.getInt(indiceId), cursor.getString(indiceTitulo)
+                    ,cursor.getString(indiceDescricao));
             list.add(p);
-            Log.i("Resultado","Descricão: " + cursor.getString(indiceDescricao));
-            Log.i("Resultado","Titulo: " + cursor.getString(indiceTitulo));
-            //cursor.moveToNext();
-        }
+        } while (cursor.moveToNext());
+
         cursor.close();
         return list;
     }

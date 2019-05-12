@@ -678,6 +678,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnAlterar
 id btnCadastrar
 id btnPedido
 id buttonPanel
@@ -833,6 +834,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cadastrar
 layout activity_main
+layout alterar_pedido
 layout linha
 layout notification_action
 layout notification_action_tombstone
