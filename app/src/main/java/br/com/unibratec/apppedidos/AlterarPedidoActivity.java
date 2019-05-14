@@ -26,13 +26,13 @@ public class AlterarPedidoActivity extends AppCompatActivity {
         Intent intent = this.getIntent();
         this.pedido = (Pedido) intent.getSerializableExtra("pedidoSelecionado");
 
-        txtTitulo = (TextView) findViewById(R.id.txtTitulo);
-        txtDescricao = (TextView) findViewById(R.id.txtDescricao);
+        txtTitulo = (TextView) findViewById(R.id.txtTit);
+        txtDescricao = (TextView) findViewById(R.id.txtDesc);
 
         txtTitulo.setText(this.pedido.getTitulo());
         txtDescricao.setText(this.pedido.getDescricao());
 
-        Button btnPedido = (Button) findViewById(R.id.btnCadastrar);
+        Button btnPedido = (Button) findViewById(R.id.btnAlterar);
         btnPedido.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

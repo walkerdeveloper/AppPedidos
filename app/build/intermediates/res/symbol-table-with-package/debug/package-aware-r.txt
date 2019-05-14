@@ -791,7 +791,9 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txtDesc
 id txtDescricao
+id txtTit
 id txtTitulo
 id uniform
 id up

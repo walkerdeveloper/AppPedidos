@@ -76,18 +76,20 @@ public class MainActivity extends AppCompatActivity {
         Cursor cursor = db.rawQuery("Select * From Pedidos", null);
         ArrayList<Pedido> list = new ArrayList<>();
 
-        int indiceId = cursor.getColumnIndex("_id");
-        int indiceTitulo = cursor.getColumnIndex("titulo");
-        int indiceDescricao = cursor.getColumnIndex("descricao");
+        if(cursor != null && cursor.getCount() > 0){
+            int indiceId = cursor.getColumnIndex("id");
+            int indiceTitulo = cursor.getColumnIndex("titulo");
+            int indiceDescricao = cursor.getColumnIndex("descricao");
 
-        cursor.moveToFirst();
-        do {
-            Pedido p = new Pedido(cursor.getInt(indiceId), cursor.getString(indiceTitulo)
-                    ,cursor.getString(indiceDescricao));
-            list.add(p);
-        } while (cursor.moveToNext());
+            cursor.moveToFirst();
+            do {
+                Pedido p = new Pedido(cursor.getInt(indiceId), cursor.getString(indiceTitulo)
+                        ,cursor.getString(indiceDescricao));
+                list.add(p);
+            } while (cursor.moveToNext());
 
-        cursor.close();
+            cursor.close();
+        }
         return list;
     }
 }

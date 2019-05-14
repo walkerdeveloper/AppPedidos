@@ -19,19 +19,19 @@
             android:text="Alterar Pedido"/>
 
         <EditText
-            android:id="@+id/txtTitulo"
+            android:id="@+id/txtTit"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Titulo"/>
 
         <EditText
-            android:id="@+id/txtDescricao"
+            android:id="@+id/txtDesc"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Descricao"/>
 
         <Button
-            android:id="@+id/btnCadastrar"
+            android:id="@+id/btnAlterar"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Alterar Pedido"
