@@ -92,4 +92,12 @@ public class MainActivity extends AppCompatActivity {
         }
         return list;
     }
+    // Falta fazer push
+    private void removerPedido(int id){
+        try {
+            db.execSQL("Delete From Pedidos Where id = " + id);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 }
