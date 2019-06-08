@@ -10,6 +10,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_height="61dp"
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/imagem"
+            android:layout_weight="0.65"
+            android:id="@+id/imageView"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"

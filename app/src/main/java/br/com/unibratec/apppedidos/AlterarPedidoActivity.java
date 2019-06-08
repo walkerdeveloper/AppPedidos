@@ -1,8 +1,10 @@
 package br.com.unibratec.apppedidos;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -10,11 +12,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AlterarPedidoActivity extends AppCompatActivity {
 
     private Pedido pedido;
-    private SQLiteDatabase db = null;
     private TextView txtTitulo;
     private TextView txtDescricao;
 
@@ -37,7 +39,9 @@ public class AlterarPedidoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //To doo
-               alterarPedido();
+                alterarPedido();
+                Toast.makeText(getBaseContext(), " Alterado com Sucesso", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
 
@@ -45,6 +49,8 @@ public class AlterarPedidoActivity extends AppCompatActivity {
 
     private void alterarPedido() {
         try {
+            @SuppressLint("WrongConstant") SQLiteDatabase db =
+                    openOrCreateDatabase("database", SQLiteDatabase.CREATE_IF_NECESSARY, null);
             ContentValues cv = new ContentValues();
             cv.put("titulo", txtTitulo.getText().toString());
             cv.put("descricao", txtDescricao.getText().toString());

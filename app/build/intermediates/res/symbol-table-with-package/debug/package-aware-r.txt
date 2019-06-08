@@ -630,6 +630,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable imagem
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -717,6 +718,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
